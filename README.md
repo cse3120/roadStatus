@@ -49,8 +49,7 @@ Implemented Junit test cases, Integration test cases and Karate BDD test cases.
 Execute the "mvn test" command. 
 It will generate a Karate test case report.  
 Karate uses the actual live server to execute the test case, so please ensure the application is running before executing the "mvn test" command.
-Click to view sample [Karate BDD Test case summary report]
-(https://github.com/cse3120/roadStatus/blob/main/karate-summary.html)
+You can find the Karate report in the target\karate-reports\karate-summary.html
 
 
 
