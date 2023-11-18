@@ -38,7 +38,7 @@ where you can set the values for the following properties:
 roadapi.app.key=api-key_value  
 roadapi.app.url=https://api.tfl.gov.uk/Road/{ids}?app_key={appKeyValue}
 
-2.Using Postman, provide the URL in one of the following formats: "http://localhost:8080/road/A10" or "http://localhost:8080/road/A10?app_key={appkeyvalue}".
+2.Using Postman, provide the URL in one of the following formats: "http://localhost:8080/roadstatus/A10" or "http://localhost:8080/roadstatus/A10?app_key={appkeyvalue}".
 In this context, "A10" represents the road ID, allowing you to specify the particular road for testing and retrieving its status. 
 Additionally, the "app_key" is an optional request parameter. If you haven't configured it in the application.properties file, you can provide the value directly in the endpoint.
 
